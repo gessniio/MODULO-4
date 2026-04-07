@@ -17,7 +17,7 @@ const int TAM            = 50;  // TAMAÑO MAXIMO DE TEXTO
 
 // ---------------------------------------------------------
 // ---------------------------------------------------------
-// ARREGLO 1D: Estado de equipos  (0=disponible, 1=ocupado)
+// ARREGLO 1: Estado de equipos  (0=disponible, 1=ocupado)
 // ---------------------------------------------------------
 // ---------------------------------------------------------
 int equipos[TOTAL_EQUIPOS];     // Se llena de ceros()
@@ -26,7 +26,7 @@ int equipos[TOTAL_EQUIPOS];     // Se llena de ceros()
 // ---------------------------------------------------------
 
 
-// ARREGLO 2D: BITACORA DIARIA DE VISITANTES
+// ARREGLO 2: BITACORA DIARIA DE VISITANTES
 //   Filas    → registro del visitante 
 //   Columna 0 → ID usuario
 //   Columna 1 → Nombre
@@ -162,7 +162,7 @@ void verBitacora() {
 }
 
 // =========================================================
-//  FUNCIÓN 3 — GUARDAR REPORTE EN ARCHIVO
+//  FUNCION 3 — GUARDAR REPORTE EN ARCHIVO
 // =========================================================
 void generar_reporte() {
     // SE ABRIRA EL ARCHIVO PARA ESCRITURA (SE CREARA SI NO EXISTE)
@@ -194,7 +194,7 @@ void generar_reporte() {
 }
 
 // =========================================================
-//  FUNCIÓN 4 — LECTURA DE REPORTE DESDE NUESTRO ARCHIVO
+//  FUNCION 4 — LECTURA DE REPORTE DESDE NUESTRO ARCHIVO
 // =========================================================
 void consultar_reporte() {
     // SE ABRIRA EL ARCHIVO PARA LECTURA
@@ -221,13 +221,13 @@ void consultar_reporte() {
 //  MENU PRINCIPAL
 // =========================================================
 void mostrarMenu() {
-    cout << "\n============================================================================\n";
-    cout << "   MM           MM   AAAAAA   -RRRRRRRRR   VV         VV   II   NNNN     NN\n";
-    cout << "   MMMM       MMMM  AA    AA  -RR     RR    VV       VV    II   NN NN    NN\n";
-    cout << "   MM  MM    MM MM  AA    AA  -RR    RR      VV     VV     II   NN  NN   NN\n";
-    cout << "   MM   MM MM   MM  AAAAAAAA  -RRRRRR         VV   VV      II   NN   NN  NN\n";
-    cout << "   MM    MMM    MM  AA    AA  -RR    RRR       VV VV       II   NN    NN NN\n";
-    cout << "   MM     M     MM  AA    AA  -RR      RRR      VVV        II   NN     NNNN\n";
+    cout << "\n======================================================================================\n";
+    cout << "   MM           MM   AAAAAA   -RRRRRRRRR   VV         VV   II   NNNN     NN \n";
+    cout << "   MMMM       MMMM  AA    AA  -RR     RR    VV       VV    II   NN NN    NN \n";
+    cout << "   MM  MM    MM MM  AA    AA  -RR    RR      VV     VV     II   NN  NN   NN \n";
+    cout << "   MM   MM MM   MM  AAAAAAAA  -RRRRRR         VV   VV      II   NN   NN  NN \n";
+    cout << "   MM    MMM    MM  AA    AA  -RR    RRR       VV VV       II   NN    NN NN \n";
+    cout << "   MM     M     MM  AA    AA  -RR      RRR      VVV        II   NN     NNNN \n";
     cout << "============================================================================\n";
     cout << "============================================================================\n";
     cout << "                                 UNRC                                       " << endl;
