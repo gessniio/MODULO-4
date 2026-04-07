@@ -90,6 +90,15 @@ marvin.exe        # Windows
 - [ ] Usar `std::string` y `std::vector` para eliminar los límites fijos
 - [ ] Interfaz con fecha del sistema (`<ctime>`)
 
+
+---
+
+## 👨‍💻 Autor
+
+**Marvin Valdez**
+Ingeniero en Sistemas, Electronica y Electromecanica | Redes | Ciberseguridad | IA
+
+---
 ---
 
 ## Tecnologías
