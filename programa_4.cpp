@@ -20,14 +20,14 @@ const int TAM            = 50;  // TAMAÑO MAXIMO DE TEXTO
 // ARREGLO 1D: Estado de equipos  (0=disponible, 1=ocupado)
 // ---------------------------------------------------------
 // ---------------------------------------------------------
-int equipos[TOTAL_EQUIPOS];     // Se llena de ceros en inicializar()
+int equipos[TOTAL_EQUIPOS];     // Se llena de ceros()
 
 // ---------------------------------------------------------
 // ---------------------------------------------------------
 
 
 // ARREGLO 2D: BITACORA DIARIA DE VISITANTES
-//   Filas    → registro del visitante (máx. 10)
+//   Filas    → registro del visitante 
 //   Columna 0 → ID usuario
 //   Columna 1 → Nombre
 //   Columna 2 → Hora de entrada
@@ -53,7 +53,7 @@ void inicializar() {
 }
 
 // =========================================================
-//  FUNCIÓN 1 — VISTA DE EQUIPOS DISPONIBLES (Arreglo 1D)
+//  FUNCIÓN 1 — VISTA DE EQUIPOS DISPONIBLES
 // =========================================================
 void verEquipos() {
     int disponibles = 0;
@@ -265,7 +265,7 @@ int main() {
             default: cout << "Opcion invalida." << endl;
         }
 
-    } while (opcion != 6);  // SE REPITARA HASTA SELEECIONAR SALIR
+    } while (opcion != 6);  // SE REPITE HASTA SELEECIONAR SALIR
 
     return 0;
 }
