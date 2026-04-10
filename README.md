@@ -8,7 +8,7 @@ Sistema de control de visitantes para salas de cómputo, desarrollado en C++ con
 
 Manual link: https://sites.google.com/view/autentica4/modulo_4?authuser=0
 
-SE AGREGA MANUAL DE PROGRAMA 4 EN FORMATO WEB SENCILLO Y DE IGUAL MANERA EN FORMATO PODCATS.
+SE AGREGA MANUAL DE PROGRAMA 4 EN FORMATO WEB SENCILLO Y DE IGUAL MANERA EN FORMATO PODCATS Y VIDEO EXPLICATIVO.
 
 ---
 
