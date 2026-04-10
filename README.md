@@ -6,6 +6,8 @@ AUTENTICA 4 / SEMESTRE 2 (PROGRAMACION ESTRUCTURADA)
 
 Sistema de control de visitantes para salas de cómputo, desarrollado en C++ con arreglos estáticos y manejo de archivos. Pensado como proyecto educativo de estructuras de datos básicas.
 
+Manual: <img width="841" height="104" alt="image" src="https://github.com/user-attachments/assets/e4102f44-ebae-49cc-902d-5dd863559801" />
+
 ---
 
 ## ¿Qué hace este programa?
